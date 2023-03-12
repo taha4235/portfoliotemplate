@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    transition: 1s;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-image: url(images/images2.webp);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+nav h3{
+    font-size: 30px;
+    color: #333;
+    margin-top: 20px;
+    text-transform: capitalize;
+    margin-left: -100px;
+}
+nav h3 span::after{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: blueviolet;
+    content: '';
+    top: 40px;
+    left: 240px;
+}
+nav .icons-links{
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+    
+}
+.icons-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.icons-links ul li a{
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px;
+}
+.icons-links ul li a:hover{
+    border-bottom: 2px solid blueviolet;
+    color: blueviolet;
+  
+}
+.main-content{
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+.col-2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-image: url(images/);
+}
+.container-information{
+    position: relative;
+    left: 100px;
+    top: -10px;
+}
+.container-information h3{
+    font-size: 44px;
+    text-transform: capitalize;
+    color: #333;
+}
+.container-information h4{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+.container-information h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #333;
+}
+.container-information span{
+    color: blueviolet;
+}
+.container-information p{
+    font-size: 15px;
+    color: #333;
+}
+ .icons-links-active ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+ .icons-links-active ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.button {
+    margin-top:40px;
+}
+.icons-links-active ul li a:hover{
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    transition: background 1s;
+}
+.button a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    color: #333;
+    text-transform: capitalize;
+}
+.button a:hover{
+    background-color: blueviolet;
+    color: #fff;
+    transition: background 1s;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/images4.webp);
+    background-position: center;
+    background-size: cover;
+}
+.container-title h3{
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #333;
+
+}
+.container-title h3 span{
+    color: blueviolet;
+}
+.first-container{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.first-container h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.first-container p{
+    color: #333;
+    font-size: 15px;
+}
+.first-container .read-more{
+    text-decoration: none;
+   position: relative;
+    border: 1px solid blueviolet;
+    padding: 10px 20px;
+    top: 40px;
+    border-radius: 4px;
+}
+.first-container .read-more:hover{
+    background-color: blueviolet;
+    color: #fff;
+    transition: background 1s;
+}
+.first-container .icons-links-active{
+    margin-top: 60px;
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+}
+.container-skills{
+    display: flex;
+   margin-top: 100px;
+    margin-left: 200px;
+}
+.skills-container{
+    width: 300px;
+    height: 190px;
+    box-shadow: 2px 2px 2px 2px silver;
+    margin-right: 50px;
+}
+.skl1{
+    background-image: url(images/skills1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.skl2{
+    background-image: url(images/skills2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.skl3{
+    background-image: url(images/skills3.webp);
+    background-position: center;
+    background-size: cover;
+}
+.skl4{
+    background-image: url(images/skills4.webp);
+    background-position: center;
+    background-size: cover;
+}
+.skl5{
+    background-image: url(images/skills5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.skl6{
+    background-image: url(images/skills6.webp);
+    background-position: center;
+    background-size: cover;
+}
+#portfolio{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.container-definition{
+    width: 100%;
+    height: 300px;
+    background-color:#ccc;
+   position: relative;
+   top: 170px;
+   background-image: url(images/por.webp);
+   background-position: center;
+   background-size: cover;
+}
+.container-definition h3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    top: 40px;
+    position: relative;
+    font-weight: 300;
+}
+.subscribe-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    background-color: whitesmoke;
+    padding: 10px 30px;
+    width: 400px;
+    border-radius: 33px;
+    margin-left: 500px;
+}
+.subscribe-container input{
+    width: 70%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    margin-left: -100px;
+}
+.subscribe-container i{
+    float: right;
+    position: relative;
+    top: 10px;
+    color: #333;
+    cursor: pointer;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+}
+.contact-container{
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px silver;
+   position: relative;
+   top: 80px;
+   left: 220px;
+   display: flex;
+}
+.container-1-2{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/portfoliobackground.webp);
+}
+.container-contact-information{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.container-contact-information h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #333;
+}
+.container-contact-information p{
+    font-size: 15px;
+    color: #333;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.container-contact-information form input{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    outline: 0;
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 33px;
+}
+.container-contact-information form .submit{
+ position: relative;
+ top: 20px;
+   width: 300px;
+   height: 40px;
+    border: 1px solid blueviolet;
+    color: #111;
+    left: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.container-contact-information form .submit:hover{
+background-color: blueviolet;
+color: #fff;
+transition: background 1s;
+}
+.container-contact-information form .or{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container-contact-information form .or::before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    background-color: black;
+    left: -10px;
+    top: 10px;
+}
+.container-contact-information form .or::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    background-color: black;
+    top: 10px;
+    margin-left: 30px;
+}
+.continue{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+.continue button{
+    width: 300px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    background-color: #111;
+    color: #fff;
+   border-radius: 33px;
+   cursor: pointer;
+}
+.continue button i{
+    margin-right: 10px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    position:absolute;
+ margin-top: 10px;
+  left: 30px;
+  text-transform: capitalize;
+}
